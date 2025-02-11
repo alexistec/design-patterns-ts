@@ -58,11 +58,11 @@ function createLogger(level:LogLevel) {
 function main(){
     const infoLogger = createLogger('info')
     const warnLogger = createLogger('warn');
-  const errorLogger = createLogger('error');
+    const errorLogger = createLogger('error');
 
-  infoLogger('APP INIT SUCCESS.');
-  warnLogger('Memory usage is high');
-  errorLogger('Error not connect BD.');
+    infoLogger('APP INIT SUCCESS.');
+    warnLogger('Memory usage is high');
+    errorLogger('Error not connect BD.');
 }
 
 main();
